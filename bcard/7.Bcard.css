@@ -1,0 +1,35 @@
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    width: 150px;
+}
+
+.card{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 10px solid #c894cd;
+    background: #9dc4dd;
+    color: #2b2839;
+}
+
+.border-blue{
+    border: 1px solid blueviolet;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+div {
+    animation-name: example;
+    animation-duration: 4s;
+  }
